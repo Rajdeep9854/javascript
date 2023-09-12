@@ -23,4 +23,34 @@ let bolleanIsLoggedIn = Boolean(isLoggedIn)
 
 let stringNumber = 33;
 let number = String(stringNumber)
-console.log(number);
+//console.log(number);
+
+
+// **********************************operation************************************************************
+
+let value =3
+let negValue = -value;
+//console.log(negValue);
+
+/*console.log("1"+2);
+console.log(1+"2");
+console.log("1"+2+2);// first string converts all in string
+console.log(1+2+"2");// last string do all the calculation and add it with the string */
+
+/*console.log(2>1);
+console.log(2>=1);
+console.log(2<1);
+console.log(2<=1);
+console.log(2==1);
+console.log(2!=1);*/
+
+/*console.log("2">1);
+console.log("02">1);*/
+
+
+console.log(null > 0);
+console.log(null == 0);
+console.log(null >= 0);
+
+// strict check  ===
+// check value + datatype
