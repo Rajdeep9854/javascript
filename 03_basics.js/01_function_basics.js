@@ -24,3 +24,13 @@ function addTwoNumbers(number1, number2){
 const result = addTwoNumbers(3, 5)
 
 // console.log("Result: ", result);
+
+
+function loginUserMessage(name="piyali"){ // this is default value 
+    if(name===undefined){
+        console.log("please enter a username");
+        return 
+    }
+    return `${name} just logged in `
+}
+console.log(loginUserMessage());
