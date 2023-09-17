@@ -43,11 +43,20 @@ const users =[ {
 ]
 
 users[1].email;
-console.log(tinderUser);
+/*console.log(tinderUser);
 console.log(Object.keys(tinderUser));// returns all keys of the object as a form of array 
 console.log(Object.values(tinderUser));// returns all values of the object as a form of array 
-console.log(Object.entries(tinderUser)); // make a array of array where key and value is in a array 
+console.log(Object.entries(tinderUser)); // make a array of array where key and value is in a array */
 // output
 /**[ [ 'id', 'sabby123' ], [ 'name', 'sammy' ], [ 'isLoggedIn', false ] ] */
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+//console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    courseName : 'js in hindi',
+    price :'999',
+    courseInstructor:"hitesh"
+}
+
+const {courseName : name}=course;// object destructuring 
+console.log(name);// object destructuring 
